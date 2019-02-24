@@ -1,0 +1,123 @@
+Mike Castillo
+Austin, Texas
+1-512-413-8218
+michael.d.castillo@gmail.com
+https://www.linkedin.com/in/mike-castillo
+https://github.com/michaeldcastillo
+
+Graphic Designer, UI/UX Designer, Web Developer
+
+I strive to bridge the gap between business and technology. Unlike many conventional information technology pros, I only find technology interesting when it solves business problems and serves the needs of real people. As such, user experience provides the context for how I think about every product or service created and consumed.
+
+Most recently, I have spent a 10 years of my career learning and working with Microsoft SharePoint and related technologies (now Office 365) to facilitate team collaboration and communication in the workplace. Prior to that, I have spent many additional years working as a designer for print and digital media (branding, user interface, audio/video/animation, etcetera). Currently, I am focused on learning and improving my skills with full-stack JavaScript development.
+
+WORK HISTORY
+
+LongView Inc/B3 Group/Tista Technology
+Enterprise SharePoint Architect (Austin, Texas; 2017 to Present)
+
+Currently, I am employed as a full-time contractor for the VA Financial Service Center (FSC) working with an on-premise SharePoint 2010/2013 environment. I get the most SharePoint “return on investment” possible on behalf of the FSC business users configuring SharePoint to meet business needs where applicable. As a site collection administrator for 7 intranet sites and 4 extranet sites, I configure, operate and manage the bulk of the front-end SharePoint application for the organization. I work with users from all across the employee hierarchy, from the Chief of Staff down, across functional areas including internal and external federal employees and contractors. I lead other SharePoint professionals within the organization.
+
++ Interface with all levels of the organization
++ Provide “best practices” and guidance around getting the most out of SharePoint
++ Develop business solutions using SharePoint capabilities where applicable
+
+Visa, Inc.
+System Administrator – SharePoint (Austin, Texas; 2013 to 2016)
+
+Maximized the value of SharePoint (2010, 2013) as an internal collaboration and publishing tool within the organization. Provided customer-facing, direct and indirect “Tier 2” support for the entire farm. Trained and coached end users on SharePoint best practices. Executed user interface design and development using established tools and technologies (SharePoint Designer, Themes, Master Pages, HTML, CSS, JavaScript, jQuery, CAML, XSLT). Accomplished workflow automation using Nintex Workflow. Managed content migrations using DocAve and Sharegate. Regularly met with farm administrators and solution developers to track and resolve issues affecting the larger team. 
+
++ Provided total support for approximately 5,000 individual site collections with up to 13,000 potential users
++ Designed and implemented simple brand customization of SharePoint user-interface for internal collaboration farm
++ Managed and enforced SharePoint governance policy, including guidelines on design, development and branding
+
+Camber Corporation
+SharePoint Administrator (Austin, Texas; 2012 to 2013)
+
+Sub-contracted by TASC on behalf of the VA Financial Service Center as the SharePoint (2003, 2007, 2010) site collection administrator for online document management and collaboration within the organization. Consulted by staff members on configuration, support, training and appropriate use of SharePoint.
+
++ Sole site administrator for the TASC project’s SharePoint collaboration intranet portal
++ Implemented a document management system by mapping business requirements to SharePoint’s capabilities
+
+Advanced Micro Devices (AMD)
+Senior Internal Communications Specialist (Austin, Texas; 2010 to 2012)
+
+Acted as a SharePoint (2007) site collection administrator and subject matter expert for the entire corporate intranet, consisting of 5 regional publishing site collections, hundreds of sub sites and thousands of global users. Actively engaged in deploying web analytics capabilities to SharePoint pages to help drive content direction.
+
++ Designed and customized sites, list views and pages using SharePoint Designer, XSLT, HTML, CSS, JavaScript and Flash
++ Troubleshot technical issues related to the corporate intranet and provided training documentation to business owners
+
+US Army Medical Information Technology Center (USAMITC)
+IT Specialist INET (GS9), Web Content Manager (San Antonio, Texas; 2009 to 2010)
+
+Acted as a SharePoint (2003, 2007) site administrator, web content manager and subject matter expert for the information assurance division of the Army’s Medical Command (MEDCOM) at Fort Sam Houston.
+
++ Customized SharePoint pages via SharePoint Designer, including connecting to external SQL databases
++ Configured development and test environment using VMware, Windows Server 2003 Enterprise and MOSS 2007
+
+PartnersFinancial (National Financial Partners)
+Web Project Manager (Austin, Texas; 2007 to 2009)
+
+Functioned as a technology operations manager responsible for the deployment of extranet content to partner firms using various content management systems (Ektron CMS, Bridgeline iApps, MS SharePoint). Created usability enhancements to existing department web sites based on end user surveys and best practices. Created site maps, wire-frames, mockups and demos to help drive design and development of a new, 3rd party content management system.
+
++ Redesigned and hand-coded a customer-facing extranet site using HTML, CSS, JavaScript and server-side includes
++ Designed and developed a Flash-based video player using ActionScript
+
+US Army HQ USFK
+Active Duty Sergeant (E5), HR Information System Management Specialist (Seoul, South Korea; 2006 to 2007)
+
+Provided desktop publishing and administrative assistance to the United States Forces Korea (USFK) Command Sergeant Major (CSM). I was responsible for preparing and proofreading all correspondence on behalf of the CSM for consistent wording, grammar, style and appropriateness to the intended audience. Created and produced graphic assets for events hosted by the CSM including certificates of military achievements, printed event guides and a video slide presentation for the 232nd annual Army Birthday Ball event.
+
++ Designed and produced video slide presentation and printed program guide for 800+ senior enlisted personnel
++ Awarded the Army Achievement Medal for planning, coordinating and overseeing the production of assets for the Army Birthday Ball
+
+US Army 8th US Army G1
+Active Duty Specialist (E4), HR Information System Management Specialist (Seoul, South Korea; 2003 to 2006)
+
+Operated and managed field personnel information systems. Directly responsible for updating personnel records, analyzing reports, conducting research, resolving discrepancies, training users and providing technical support to satellite offices throughout Korea. I actively supervised soldiers in the performance of their duties and ensured compliance with prescribed standards via monthly performance evaluations.
+
++ Temporary assignment conducting interviews and reported findings to senior leadership as an assistant inspector general
++ Temporary, 3-month assignment with a 24/7 operational tempo tracking and reporting classified casualty information
+
+Mike Castillo Design
+Freelance Multimedia Designer (Dallas, Texas; 2001 to 2003)
+
+Provided a variety of print and Web design services to clients in Los Angeles and Dallas.
+
++ Translated client requests into working solutions in line with communication objectives
++ Designed and produced graphic assets for print and digital media, including Flash-based motion graphics and website designs
+
+Full Moon Interactive, Inc.
+Web Designer (Los Angeles, California; 1999 to 2001)
+
+Worked as a designer in a team environment for enterprise-level, database-driven, e-commerce Web sites. Designed user-interfaces and created graphic assets for several clients including Daily Variety, Oral-B, Cal Fed, Dell and Citibank. Participated in development team meetings, focus group testing sessions and client presentations. Researched and implemented usability improvements to complex Web interfaces.
+
++ Designed publicly-facing Web sites for Fortune 1,000 clients
++ Worked as lead and sole designer on Variety.com project
+
+Progressive System Technologies, Inc.
+Graphic Designer (Austin, Texas; 1994 to 1999)
+
+Worked as a graphic designer in the sales and marketing department of a semiconductor robotics manufacturing company creating all marketing collateral (letterhead, business cards, slide presentation templates, product sheets, trade show graphics, corporate website).
+
++ Created a new corporate identity system and accompanying standards guidelines
++ Learned to hand code HTML while creating the first publicly-facing company website
+
+EDUCATION AND TRAINING
+
+Professional Certifications
+
++ “Coding Boot Camp Certificate Program (Full Stack Web Development)” (TCH-5003), Austin, TX. (2019)
++ “Microsoft Certified Technical Specialist WSS 3.0 & MOSS 2007 Configuration” (MCTS), Chicago, IL. (2009)
++ “CompTIA A+ Certified Professional IT Technician” (COMP001009145426), San Antonio, TX. (2009)
+
+Military Training
+
++ “Human Factors Engineering” (887 G1305), Army Institute of Professional Development, Online (2005)
++ “Supervisor Development Course” (131 F2105), Army Institute of Professional Development, Online (2005)
++ “Manager Development Course” (131 F3105), Army Institute of Professional Development, Online (2005)
+
+University Degrees
+
++ Master of Science – “Computer Information Systems” (MSCIS), Bellevue University, Online (2007)
++ Bachelor of Fine Arts – “Design Theory and Methodology” (BFA Design), University of Texas at Austin, Austin, TX. (1998)

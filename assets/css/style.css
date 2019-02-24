@@ -1,0 +1,474 @@
+/* CSS */
+
+/* 	The box-sizing property of 'border-box' makes sure that the padding and borders are included in the total width and height of the element */
+
+/* common to all screen widths */
+
+html
+	{
+        margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+        border:0px dotted blue; /* used for testing */
+	}
+
+body
+	{
+		font-family: 'Nunito Sans', sans-serif;
+		color:#777777;
+		line-height:200%;
+		font-size:16px;
+		background-color:#ededed; /* sets similar background in event there is a problem with the image */
+		background-image:url("../images/vintage-concrete-grayscale-400x400.png"); 
+		widows: 100%;
+		height:100%;
+	    margin:0px 0px 0px 0px; 
+        padding:0px 0px 0px 0px;
+        border:0px dotted red; /* used for testing */
+    }
+
+a, a:active, a:hover, a:visited
+	{
+		/*color:#777777;*/
+		color:#3D59AB;
+		text-decoration: none; /* get rid of the underline on hyperlinks */
+		font-weight:800;
+	}
+
+.navlinks > h4 > a, 
+.navlinks > h4 > a:active, 
+.navlinks > h4 > a:hover, 
+.navlinks > h4 > a:visited
+	{
+		font-weight:400;
+	}
+
+	/* #FF5333 Pantone 17-1564 "Fiesta" */
+	/* #FF5333; /* boot camp default teal green color */
+
+.tab
+	{
+		border:0px dotted blue; /* used for testing */
+		background-color:#FF5333; /* teal green color */
+		/* background-color:#666666; */
+		height:100%; /* fill the vertical space inside the nav and header elements */
+		width:auto; /* div width is determined by contents */
+		float:left; /* pushes the div to the far left of the nav element */
+		text-align:center; /* centers the contents of the div */
+		display:table; /* tells the div to behave like a table element so that contents can be centered vertically */
+		padding:0px 20px 0px 20px; /* centers the contents horizontally by applying a fixed equal space to the left and right */
+	}
+
+
+h3 /* all header 3 elements in the site get the same treatment */
+	{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size:18px;
+        font-weight:400; /* bold looks better here with this font when it's a dark color on a white background */
+        letter-spacing: 1px; /* sets the kerning! hooray for typography */
+	}
+
+.tab > h3 /* applies specific formatting to all header 3 elements nested inside a div with the 'tab' class applied */
+	{
+		color:white; 
+		display:table-cell; /* tells the element to behave like a table cell so that it can be centered vertically */
+		vertical-align:middle; /* centers the element vertically */
+		font-weight:800;
+		font-size:24px;
+	}
+
+h4 /* all header 4 elements in the site get the same treatment */
+	{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size:16px;
+        font-weight:800; /* bold looks better here with this font when it's a dark color on a white background */
+        letter-spacing: 1px; /* sets the kerning! hooray for typography */
+	}
+
+
+.navlinks > h4 /* applies specific formatting to all header 4 elements nested inside a div with the 'navlinks' class applied */
+	{
+		display:table-cell; /* tells the element to behave like a table cell so that it can be centered vertically */
+		vertical-align:middle; /* centers the element vertically */
+        color:#777777;
+        font-weight:400;
+	}
+
+.navlinks > h4 > a
+	{
+		margin:0px 10px 0px 10px; /* applies to 'About' and 'Portfolio' only as an inline style overrides the right margin for the 'Contact' link */
+	}
+
+.divider
+	{
+		color:#dddddd;
+	}
+
+section > h3 /* applies specific formatting to all header 3 elements nested inside a div with the 'section' class applied */
+	{
+		border:0px dotted red; /* used for testing */
+		color:#FF5333;
+	}
+
+hr /* styles all hard rules */
+	{
+		height:2px; 
+		background-color:#dddddd; 
+		border:none;
+	}
+
+.title
+	{
+		font-size:18px;
+		font-weight:800;
+	}
+
+
+.aboutphoto
+	{
+		float:left; /* pushes the element to the far left of the container element */
+		margin:10px 20px 0px 0px; /* flush left */
+		border:1px solid #dddddd;
+	}
+
+.push /* required for sticky footer */
+	{
+		height:120px;
+	}
+
+footer
+	{
+        margin:0px 0px 0px 0px;
+		/* padding:25px 0px 0px 0px; /* pushes copyright text to the bottom of the element */
+        z-index:999;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        background-color:#666666; 
+		height:65px;
+		line-height:60px;
+		vertical-align: middle;
+		border-top:5px solid #FF5333;
+		color:#dddddd;
+		font-size:14px; 
+		font-weight:400;
+		text-align:center; 
+	}
+
+ 	.card
+	{
+		border:0px;
+	}
+
+	.card-text
+	{
+		background-color:#FF5333;
+	}
+
+	/*
+	.card-img-overlay
+	{
+		padding-top:125px;
+	}*/
+
+	a.worklinkprimary
+	{
+		font-size:18px;
+		font-weight:400;
+		color:white;
+	}
+
+	a.worklinksecondary
+	{
+		font-size:14px;
+	}
+
+
+
+
+
+
+/* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px */
+
+/* anything above 980px */
+
+@media screen and (min-width: 981px) {
+
+
+
+	main    /* this is the main page container/wrapper element */
+		{
+			margin:0px 0px 66px 0px; /* 38px footer + 20px margin +8px border */
+			padding:0px 0px 0px 0px;
+			border:0px dotted orange; /* used for testing */
+		}
+
+	header
+		{
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+			background-color:#ffffff; 
+			border-bottom:2px solid #cccccc; 
+			height:75px;
+		}
+
+	nav
+		{
+			width:920px; /* matches page content section width */
+			height:100%; /* required to fill vertical space inside header element */
+			border:0px dotted red; /* used for testing */
+			margin-left:auto; /* used to center element within header */
+			margin-right:auto; /* used to center element within header */
+		}
+
+	.navlinks
+		{
+			display:table;
+			height:100%;
+			width:auto;
+			float:right;
+			text-align:center;
+			padding:0px 0px 0px 20px;
+
+		}
+
+
+
+	section
+		{
+			background-color:#ffffff; 
+			border:1px solid #dddddd; 
+			width:920px; 
+			padding:20px 20px 20px 20px; 
+			margin-top:20px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+	section#about 
+		{
+			overflow:hidden; /* required for float containment */
+		}
+
+	section#work 
+		{
+			overflow:hidden; /* required for float containment */
+		}
+
+	section#contact 
+		{
+			overflow:hidden; /* required for float containment */
+		}
+
+		
+
+  }
+
+  /* 980px breakpoint */
+
+  @media screen and (min-width: 769px) and (max-width: 980px) {
+
+
+
+	main    /* this is the main page container/wrapper element */
+		{
+			margin:0px 0px 66px 0px; /* 38px footer + 20px margin +8px border */
+			padding:0px 0px 0px 0px;
+			border:0px dotted orange; /* used for testing */
+		}
+
+	header
+		{
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 20px;
+			background-color:#ffffff; 
+			border-bottom:2px solid #cccccc; 
+			height:75px;
+		}
+	
+	nav
+		{
+			width:auto;
+			height:100%; 
+			border:0px dotted red; 
+			margin-left:auto; 
+			margin-right:auto; 
+		}
+
+	.navlinks
+		{
+			display:table;
+			height:100%;
+			width:auto;
+			float:right;
+			text-align:center;
+			padding:0px 20px 0px 20px;
+	
+		}
+
+	section
+		{
+			background-color:#ffffff; 
+			border:1px solid #dddddd; 
+			width:auto;
+			padding:20px 20px 20px 20px; 
+			margin-top:20px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+	section#work
+		{
+			overflow:hidden; /* required for float containment */
+			display:inline-block;
+			max-width:100%;
+		}
+
+  }
+
+  /* 768px breakpoint */
+
+  @media screen and (min-width: 641px) and (max-width: 768px) {
+
+	
+
+	main    /* this is the main page container/wrapper element */
+		{
+			margin:0px 0px 66px 0px; /* 38px footer + 20px margin +8px border */
+			padding:0px 0px 0px 0px;
+			border:0px dotted orange; /* used for testing */
+		}
+
+	header
+		{
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 20px;
+			background-color:#ffffff; 
+			border-bottom:2px solid #cccccc; 
+			height:75px;
+		}
+	
+	nav
+		{
+			width:auto;
+			height:100%; 
+			border:0px dotted red; 
+			margin-left:auto; 
+			margin-right:auto; 
+		}
+
+	.navlinks
+		{
+			display:table;
+			height:100%;
+			width:auto;
+			float:right;
+			text-align:center;
+			padding:0px 20px 0px 20px;
+	
+		}
+
+	section
+		{
+			background-color:#ffffff; 
+			border:1px solid #dddddd; 
+			width:auto; 
+			padding:20px 20px 20px 20px; 
+			margin-top:20px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+	section#work
+		{
+			overflow:hidden; /* required for float containment */
+			display:inline-block;
+			max-width:100%;
+		}
+
+	.aboutphoto
+		{
+			width:50%;
+		}
+  }
+
+  /* 640px breakpoint */
+
+  @media screen and (max-width: 640px) {
+
+
+	main    /* this is the main page container/wrapper element */
+		{
+			margin:0px 0px 66px 0px; /* 38px footer + 20px margin +8px border */
+			padding:0px 0px 0px 0px;
+			border:0px dotted orange; /* used for testing */
+		}
+
+	header /* full width container */
+		{
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+			background-color:#ffffff; 
+			/* border-bottom:2px solid #cccccc; */
+			height:75px;
+			position:static;
+		}
+	
+	nav /* fixed width centered container */
+		{
+		
+			width:100%;
+			height:100%; 
+			background-color:gray;
+			
+		}
+
+	.tab /* Mike Castillo */
+		{
+			border:0px dotted blue; /* used for testing */
+			background-color:#FF5333; /* teal green color */
+			height:100%; /* fill the vertical space inside the nav and header elements */
+			width:100%; /* div width is determined by contents */
+			/* float:left; pushes the div to the far left of the nav element */
+			text-align:center; /* centers the contents of the div */
+			display:table; /* tells the div to behave like a table element so that contents can be centered vertically */
+			padding:0px 0px 0px 0px; 
+		}
+
+	.navlinks /* About | Portfolio | Contact */
+		{
+			background-color:white;
+			width:100%; 
+			height:40px;
+			text-align:center; 
+			display:table; 
+			padding:0px 0px 0px 0px;
+			border-bottom:2px solid #cccccc;
+		
+		}
+
+	section
+		{
+			background-color:#ffffff; 
+			border:1px solid #dddddd; 
+			width:auto; 
+			padding:20px 20px 20px 20px; 
+			margin-top:20px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+	section#work
+		{
+			overflow:hidden; /* required for float containment */
+			display:block;
+
+		}
+
+
+
+	.aboutphoto
+		{
+			width:100%;
+		}
+  }
+
