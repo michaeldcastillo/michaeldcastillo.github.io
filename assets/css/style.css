@@ -4,6 +4,16 @@
 
 /* common to all screen widths */
 
+/*
+
+UT Austin Official Colors...
+
+#bf5700 - burnt orange
+#333f48 - navy
+#ffffff - white
+
+*/
+
 html
 	{
         margin:0px 0px 0px 0px;
@@ -15,7 +25,7 @@ body
 	{
 		font-family: 'Nunito Sans', sans-serif;
 		color:#777777;
-		line-height:200%;
+		line-height:150%;
 		font-size:16px;
 		background-color:#ededed; /* sets similar background in event there is a problem with the image */
 		background-image:url("../images/vintage-concrete-grayscale-400x400.png"); 
@@ -24,12 +34,18 @@ body
 	    margin:0px 0px 0px 0px; 
         padding:0px 0px 0px 0px;
         border:0px dotted red; /* used for testing */
-    }
+	}
+	
+p
+{
+	margin:10px 0px 10px 0px;
+	line-height:180%;
+}
 
 a, a:active, a:hover, a:visited
 	{
 		/*color:#777777;*/
-		color:#3D59AB;
+		color:#333f48;
 		text-decoration: none; /* get rid of the underline on hyperlinks */
 		font-weight:800;
 	}
@@ -42,13 +58,13 @@ a, a:active, a:hover, a:visited
 		font-weight:400;
 	}
 
-	/* #FF5333 Pantone 17-1564 "Fiesta" */
-	/* #FF5333; /* boot camp default teal green color */
+	/* #bf5700 Pantone 17-1564 "Fiesta" */
+	/* #bf5700; /* boot camp default teal green color */
 
 .tab
 	{
 		border:0px dotted blue; /* used for testing */
-		background-color:#FF5333; /* teal green color */
+		background-color:#bf5700; /* teal green color */
 		/* background-color:#666666; */
 		height:100%; /* fill the vertical space inside the nav and header elements */
 		width:auto; /* div width is determined by contents */
@@ -100,21 +116,30 @@ h4 /* all header 4 elements in the site get the same treatment */
 
 .divider
 	{
-		color:#dddddd;
+		color:#ededed;
 	}
 
 section > h3 /* applies specific formatting to all header 3 elements nested inside a div with the 'section' class applied */
 	{
 		border:0px dotted red; /* used for testing */
-		color:#FF5333;
+		color:#777777;
 	}
 
 hr /* styles all hard rules */
 	{
 		height:2px; 
-		background-color:#dddddd; 
+		background-color:#ededed; 
 		border:none;
 	}
+
+hr.ut /* styles all hard rules */
+	{
+		height:1px; 
+		background-color:#bf5700; 
+		border:none;
+	}
+
+
 
 .title
 	{
@@ -122,12 +147,21 @@ hr /* styles all hard rules */
 		font-weight:800;
 	}
 
-
+/*
 .aboutphoto
 	{
-		float:left; /* pushes the element to the far left of the container element */
-		margin:10px 20px 0px 0px; /* flush left */
+		float:left; /* pushes the element to the far left of the container element 
+		margin:10px 20px 0px 0px; /* flush left 
 		border:1px solid #dddddd;
+		width:240px;
+	}*/
+
+.aboutphotoright
+	{
+		float:right; /* pushes the element to the far left of the container element */
+		margin:10px 0px 0px 20px; /* flush left */
+		border:2px solid #bf5700;
+		width:240px;
 	}
 
 .push /* required for sticky footer */
@@ -147,7 +181,7 @@ footer
 		height:65px;
 		line-height:60px;
 		vertical-align: middle;
-		border-top:5px solid #FF5333;
+		border-top:5px solid #bf5700;
 		color:#dddddd;
 		font-size:14px; 
 		font-weight:400;
@@ -157,11 +191,19 @@ footer
  	.card
 	{
 		border:0px;
+		background-color:silver;
+		border-radius:0px /* get rid of bootstrap rounded corners */
 	}
 
 	.card-text
 	{
-		background-color:#FF5333;
+		background-color:#bf5700;
+	}
+
+	.card-img
+	{
+		visibility: hidden;
+		border-radius:0px /* get rid of bootstrap rounded corners */
 	}
 
 	/*
@@ -323,6 +365,8 @@ footer
 			max-width:100%;
 		}
 
+		
+
   }
 
   /* 768px breakpoint */
@@ -384,16 +428,19 @@ footer
 			display:inline-block;
 			max-width:100%;
 		}
-
-	.aboutphoto
+		/*
+		.aboutphoto
 		{
-			width:50%;
-		}
+			float:left; /* pushes the element to the far left of the container element 
+			margin:10px 20px 0px 0px; /* flush left 
+			border:1px solid #dddddd;
+			width:240px;
+		} */
   }
 
   /* 640px breakpoint */
 
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 321px) and (max-width: 640px) {
 
 
 	main    /* this is the main page container/wrapper element */
@@ -425,7 +472,7 @@ footer
 	.tab /* Mike Castillo */
 		{
 			border:0px dotted blue; /* used for testing */
-			background-color:#FF5333; /* teal green color */
+			background-color:#bf5700; /* teal green color */
 			height:100%; /* fill the vertical space inside the nav and header elements */
 			width:100%; /* div width is determined by contents */
 			/* float:left; pushes the div to the far left of the nav element */
@@ -442,7 +489,7 @@ footer
 			text-align:center; 
 			display:table; 
 			padding:0px 0px 0px 0px;
-			border-bottom:2px solid #cccccc;
+			border-bottom:2px solid #cccccc;		
 		
 		}
 
@@ -461,14 +508,131 @@ footer
 		{
 			overflow:hidden; /* required for float containment */
 			display:block;
+			border:0px solid purple;
+			margin-top:62px;
 
 		}
 
-
-
-	.aboutphoto
+	section#about
 		{
-			width:100%;
+			overflow:hidden; /* required for float containment */
+			display:block;
+			border:0px solid purple;
+			margin-top:62px;
+
+		}
+
+		/*
+		.aboutphoto
+		{
+			float:left; /* pushes the element to the far left of the container element 
+			margin:10px 20px 5px 0px; /* flush left 
+			border:1px solid #dddddd;
+			width:40%;
+		}*/
+
+		.aboutphotoright
+		{
+			width:40%;
+			margin-bottom:5px;
 		}
   }
 
+/* 320px breakpoint - iphone screen in portrait mode */
+
+@media screen and (max-width: 320px) {
+
+	main    /* this is the main page container/wrapper element */
+		{
+			margin:0px 0px 66px 0px; /* 38px footer + 20px margin +8px border */
+			padding:0px 0px 0px 0px;
+			border:0px dotted orange; /* used for testing */
+		}
+
+	header /* full width container */
+		{
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+			background-color:#ffffff; 
+			/* border-bottom:2px solid #cccccc; */
+			height:75px;
+			position:static;
+		}
+	
+	nav /* fixed width centered container */
+		{
+		
+			width:100%;
+			height:100%; 
+			background-color:gray;
+			
+		}
+
+	.tab /* Mike Castillo */
+		{
+			border:0px dotted blue; /* used for testing */
+			background-color:#bf5700; /* teal green color */
+			height:100%; /* fill the vertical space inside the nav and header elements */
+			width:100%; /* div width is determined by contents */
+			/* float:left; pushes the div to the far left of the nav element */
+			text-align:center; /* centers the contents of the div */
+			display:table; /* tells the div to behave like a table element so that contents can be centered vertically */
+			padding:0px 0px 0px 0px; 
+		}
+
+	.navlinks /* About | Portfolio | Contact */
+		{
+			background-color:white;
+			width:100%; 
+			height:40px;
+			text-align:center; 
+			display:table; 
+			padding:0px 0px 0px 0px;
+			border-bottom:2px solid #cccccc;		
+		
+		}
+
+	section
+		{
+			background-color:#ffffff; 
+			border:1px solid #dddddd; 
+			width:auto; 
+			padding:20px 20px 20px 20px; 
+			margin-top:20px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+	section#work
+		{
+			overflow:hidden; /* required for float containment */
+			display:block;
+			border:0px solid purple;
+			margin-top:62px;
+
+		}
+
+	section#about
+		{
+			overflow:hidden; /* required for float containment */
+			display:block;
+			border:0px solid purple;
+			margin-top:62px;
+
+		}
+	/*
+	.aboutphoto
+	{
+		float:left; /* pushes the element to the far left of the container element 
+		margin:10px 20px 10px 0px; /* flush left 
+		border:1px solid #dddddd;
+		width:100%;
+	} */
+
+	.aboutphotoright
+	{
+		width:100%;
+		margin-bottom:10px;
+	}
+
+}
