@@ -26,7 +26,7 @@ body
 		font-family: 'Nunito Sans', sans-serif;
 		color:#777777;
 		line-height:150%;
-		font-size:16px;
+		font-size:62.5%;
 		background-color:#ededed; /* sets similar background in event there is a problem with the image */
 		background-image:url("../images/vintage-concrete-grayscale-400x400.png"); 
 		widows: 100%;
@@ -40,6 +40,7 @@ p
 {
 	margin:10px 0px 10px 0px;
 	line-height:180%;
+	font-size:1.5em;
 }
 
 a, a:active, a:hover, a:visited
@@ -78,7 +79,7 @@ a, a:active, a:hover, a:visited
 h3 /* all header 3 elements in the site get the same treatment */
 	{
 		font-family: 'Nunito Sans', sans-serif;
-		font-size:18px;
+		font-size:2em;
         font-weight:400; /* bold looks better here with this font when it's a dark color on a white background */
         letter-spacing: 1px; /* sets the kerning! hooray for typography */
 	}
@@ -89,13 +90,13 @@ h3 /* all header 3 elements in the site get the same treatment */
 		display:table-cell; /* tells the element to behave like a table cell so that it can be centered vertically */
 		vertical-align:middle; /* centers the element vertically */
 		font-weight:800;
-		font-size:24px;
+		font-size:2em;
 	}
 
 h4 /* all header 4 elements in the site get the same treatment */
 	{
 		font-family: 'Nunito Sans', sans-serif;
-		font-size:16px;
+		font-size:2em;
         font-weight:800; /* bold looks better here with this font when it's a dark color on a white background */
         letter-spacing: 1px; /* sets the kerning! hooray for typography */
 	}
@@ -106,7 +107,8 @@ h4 /* all header 4 elements in the site get the same treatment */
 		display:table-cell; /* tells the element to behave like a table cell so that it can be centered vertically */
 		vertical-align:middle; /* centers the element vertically */
         color:#777777;
-        font-weight:400;
+				font-weight:400;
+				font-size:1.75em;
 	}
 
 .navlinks > h4 > a
@@ -143,7 +145,7 @@ hr.ut /* styles all hard rules */
 
 .title
 	{
-		font-size:18px;
+		font-size:1.75em;
 		font-weight:800;
 	}
 
@@ -158,10 +160,27 @@ hr.ut /* styles all hard rules */
 
 .aboutphotoright
 	{
-		float:right; /* pushes the element to the far left of the container element */
+		/* float:right;  pushes the element to the far left of the container element */
 		margin:10px 0px 0px 20px; /* flush left */
 		border:2px solid #bf5700;
 		width:240px;
+	}
+
+	ul
+	{
+		border:0px solid red;
+		list-style-type: disc;
+		list-style-position: inside;
+		font-size:1.25em;
+		line-height:150%;
+	}
+
+	ul#contact
+	{
+		border:0px solid red;
+		list-style-type: none;
+		padding-left:20px;
+		padding-bottom:10px;
 	}
 
 .push /* required for sticky footer */
@@ -183,7 +202,7 @@ footer
 		vertical-align: middle;
 		border-top:5px solid #bf5700;
 		color:#dddddd;
-		font-size:14px; 
+		font-size:1.5em; 
 		font-weight:400;
 		text-align:center; 
 	}
@@ -202,9 +221,14 @@ footer
 
 	.card-img
 	{
-		visibility: hidden;
+		visibility: visible;
 		border-radius:0px /* get rid of bootstrap rounded corners */
 	}
+
+	span.project-text > a
+{
+	font-size:1.5em;
+}
 
 	/*
 	.card-img-overlay
@@ -214,14 +238,14 @@ footer
 
 	a.worklinkprimary
 	{
-		font-size:18px;
+		font-size:1.25em;
 		font-weight:400;
 		color:white;
 	}
 
 	a.worklinksecondary
 	{
-		font-size:14px;
+		font-size:1em;
 	}
 
 
@@ -436,6 +460,8 @@ footer
 			border:1px solid #dddddd;
 			width:240px;
 		} */
+
+
   }
 
   /* 640px breakpoint */
@@ -536,6 +562,13 @@ footer
 			width:40%;
 			margin-bottom:5px;
 		}
+
+		span.project-text > a
+		{
+			font-size:1.25em;
+		}
+		
+
   }
 
 /* 320px breakpoint - iphone screen in portrait mode */
@@ -634,5 +667,8 @@ footer
 		width:100%;
 		margin-bottom:10px;
 	}
+
+
+
 
 }
