@@ -15,8 +15,7 @@ WORK HISTORY
 LongView Inc/B3 Group/Tista Technology
 Enterprise SharePoint Architect (Austin, Texas; 2017 to 2019)
 
-Employed as a full-time contractor for the VA Financial Service Center (FSC)
-working with an on-premise SharePoint 2010/2013/2016 environment. I get the most SharePoint “return on investment” possible on behalf of the FSC business users configuring SharePoint to meet business needs where applicable. As a site collection administrator for 7 intranet sites and 4 extranet sites, I configure, operate and manage the bulk of the front-end SharePoint application for the organization. I work with users from all across the employee hierarchy, from the Chief of Staff down, across functional areas including internal and external federal employees and contractors. I lead other SharePoint professionals within the organization. The contract for this position was granted to TISTA Science & Technology Corporation in December of 2018. 
+Employed as a full-time contractor for the VA Financial Service Center (FSC) working with an on-premise SharePoint 2010/2013/2016 environment. I get the most SharePoint “return on investment” possible on behalf of the FSC business users configuring SharePoint to meet business needs where applicable. As a site collection administrator for 7 intranet sites and 4 extranet sites, I configure, operate and manage the bulk of the front-end SharePoint application for the organization. I work with users from all across the employee hierarchy, from the Chief of Staff down, across functional areas including internal and external federal employees and contractors. I lead other SharePoint professionals within the organization. The contract for this position was granted to TISTA Science & Technology Corporation in December of 2018. 
 
 * Interface with all levels of the organization
 * Provide “best practices” and guidance around getting the most out of SharePoint
